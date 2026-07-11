@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Local secrets and user data
+config/api_keys.json
+config/certs/
+memory/long_term.json
+uploads/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Build and distribution output
+build/
+dist/
+release/
+*.spec
+
+# Logs and local runtime files
+*.log
+*.tmp
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
