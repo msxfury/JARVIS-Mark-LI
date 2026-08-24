@@ -1,5 +1,5 @@
 # ⚙️ MARK LI (51)
-### The Ultimate Cross-Platform Personal AI Assistant — Maintained by msxfury
+### The Ultimate Cross-Platform Personal AI Assistant — Led by FatihMakes
 
 > 📺 **[Watch the full setup video on YouTube](https://www.youtube.com/@FatihMakes)**
 
@@ -65,6 +65,8 @@ The headline feature of Mark LI, and the reason it's the final architecture vers
 3. Restart JARVIS — done. The skill is live, by voice, in any language.
 
 Each plugin declares its own Gemini tool schema and logic in one file. The engine auto-discovers it at startup, registers it with the Live session, and lists it in the new **🧩 Plugin Manager** panel where every plugin gets its own persistent ON/OFF toggle.
+
+The WhatsApp, Instagram, Discord, and Codex Engine plugins were developed by **msxfury** and integrated into JARVIS as optional plugins. They extend JARVIS with social automation and coding capabilities without changing the core assistant engine.
 
 Safety is built in at three layers: a broken or badly written plugin can **never** crash JARVIS — it simply shows up as "BROKEN" in the manager with the error explained, while every other tool and plugin keeps working. Name collisions with core tools are detected and rejected automatically. Want to write your own? Copy `plugins/_template.py` and fill in two things: the `PLUGIN` dict and the `run()` function.
 
@@ -181,7 +183,10 @@ Licensed under **[Creative Commons BY-NC 4.0](https://creativecommons.org/licens
 
 ## 🤝 Contributors and Community
 
-This project is maintained and published by **msxfury**. Contributions are welcome when they improve reliability, privacy, accessibility, cross-platform support, or useful assistant capabilities.
+**Project leader:** FatihMakes  
+**Contributor:** msxfury, creator of the WhatsApp, Instagram, Discord, and Codex Engine plugins integrated into JARVIS.
+
+Contributions are welcome when they improve reliability, privacy, accessibility, cross-platform support, or useful assistant capabilities.
 
 ### Contributing Code
 
