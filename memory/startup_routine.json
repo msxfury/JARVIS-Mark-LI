@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "instruction": "open Chrome to ChatGPT and open Discord",
+  "steps": [
+    {
+      "type": "app",
+      "target": "Chrome",
+      "wait": 2.0
+    },
+    {
+      "type": "url",
+      "target": "https://chatgpt.com/",
+      "wait": 2.5
+    },
+    {
+      "type": "app",
+      "target": "Discord",
+      "wait": 2.0
+    }
+  ],
+  "updated": "2026-08-24T20:31:42",
+  "last_run": "2026-08-24T20:40:53"
+}

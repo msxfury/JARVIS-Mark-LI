@@ -1,0 +1,8 @@
+config/api_keys.json
+config/certs/*.key
+config/certs/*.crt
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
